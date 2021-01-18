@@ -1,0 +1,26 @@
+.breadcrumbs {
+  padding: 1em 0;
+  background-color: #F4F4F4;
+}
+.breadcrumbs-item {
+  display: inline-block;
+  font-size: 0.875rem;
+}
+.breadcrumbs-item a {
+  color: #333;
+}
+.breadcrumbs-item:first-child>a::before {
+  content: "\f015";
+  margin-right: 0.5em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #CCC;
+}
+.breadcrumbs-item+.breadcrumbs-item::before {
+  content: "\f105";
+  margin-left: 0.3em;
+  margin-right: 0.6em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #CCC;
+}

@@ -1,0 +1,22 @@
+.l-content-fixed {
+	width: 980px;
+	margin: 0 auto;
+}
+.l-content-expanded {
+	width: auto;
+	margin: 0;
+}
+#content {
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 120px;
+}
+.l-main {
+	width: 630px;
+}
+.l-sidebar {
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0;
+	width: 260px;
+}

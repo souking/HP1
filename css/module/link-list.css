@@ -1,0 +1,41 @@
+.link-list-title .sub-nav-item {
+  position: relative;
+  border-bottom: 1px solid #CCC;
+  line-height: 1;
+  font-size: 0.875em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.link-list-title .sub-nav-item::after {
+  content: "\f105";
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #CCC;
+  transform: translateY(-50%);
+}
+.link-list-title a {
+  display: block;
+  padding: 1.5em 0;
+}
+.link-list-thumbnail .sub-nav-item {
+  margin: 1.5em 0;
+}
+.link-list-thumbnail .sub-nav-item a {
+  display: -webkit-flex;
+  display: flex;
+}
+.link-list-thumbnail .sub-nav-item img {
+  width: 70px;
+  height: 70px;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+@media (max-width: 960px) {
+  .link-list-thumbnail .sub-nav-item img {
+    width: 60px;
+    height: 60px;
+  }
+}
